@@ -147,6 +147,9 @@ header ul li a {
     .content .textBox h2 span {
         font-size: 0.8em;
     }
+    .content .imgBx {
+        padding: 0;
+    }
     .content .imgBx img {
         max-width: 300px;
     }
@@ -174,6 +177,9 @@ header ul li a {
     }
 }
 @media (max-width: 640px) {
+    header {
+        padding: 20px 50px;
+    }
     .circle {
         clip-path: circle(345px at right 765px);
     }
@@ -186,14 +192,28 @@ header ul li a {
 }
 @media (max-width: 500px) {
     .content .imgBx img {
-        padding-top: 100px;
+        padding-top: 60px;
         max-width: 260px;
     }
     .circle {
-        clip-path: circle(325px at right 960px);
+        clip-path: circle(325px at right 858px);
     }
     .sci {
         top: 55%;
     }
     
+}
+@media (max-width: 420px) {
+    header {
+        justify-content: space-around;
+        padding: 15px;
+    }
+    section {
+        padding: 112px 35px 0;
+    }
+    .content .textBox h2 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+        margin-bottom: 13px;
+    }
 }
